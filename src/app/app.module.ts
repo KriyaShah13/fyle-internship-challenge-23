@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from  '@angular/common/http';
+import { GithubSearchComponent } from './github-search/github-search.component';
+import { GithubProfileComponent } from './github-profile/github-profile.component';
+import { FormsModule } from '@angular/forms';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GithubSearchComponent,
+    GithubProfileComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
