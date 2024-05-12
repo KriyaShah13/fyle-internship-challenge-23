@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NavbarComponent } from './navbar/navbar.component';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from  '@angular/common/http';
@@ -13,6 +14,7 @@ import {NgxPaginationModule} from 'ngx-pagination';
     AppComponent,
     GithubSearchComponent,
     GithubProfileComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
