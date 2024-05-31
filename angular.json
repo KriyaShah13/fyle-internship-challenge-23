@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fyle-frontend-challenge": {
+    "frontend": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

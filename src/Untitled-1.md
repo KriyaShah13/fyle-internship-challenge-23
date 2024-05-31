@@ -1,0 +1,1 @@
+ng deploy --base-href=https://KriyaShah13.github.io/fyle-internship-challenge-23/
